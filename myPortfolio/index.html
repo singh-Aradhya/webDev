@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aradhya - Devloper Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Aradhya Portfolio</div>
+            <div class="right">
+             <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="/">Contect me</a></li>
+             </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section  class="firstSection">
+          <div class="leftSection">
+            Hi,My Name is <span class="purple">Aradhya</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+          </div>
+          <div class="rightSection">
+           <img src="heroimage.png.jpg" alt="image">
+          </div>
+        </section>
+<hr>
+        <section class="secondSection">
+        <span class="text-gray">The skills I have learned so far</span>
+        <h1>My Skills</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="">
+            <div class="vertical-title">
+             HTML (HyperText Markup Language)
+            </div>
+            <div class="vertical-desc">
+            HTML is the standard language used to create and structure content on the web. It uses a system of elements and tags to define different parts of a webpage, such as headings, paragraphs, links, images, and other multimedia.   
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="CSS-Logo.png" alt="">
+            <div class="vertical-title">
+              CSS (Cascading Style Sheets)
+            </div>
+            <div class="vertical-desc">
+             CSS is a stylesheet language used to control the appearance and layout of HTML elements on a webpage. It allows developers to define styles such as colors, fonts, spacing, borders, and positioning, making websites more visually appealing and consistent. 
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="JavaScriptlogo.png" alt="">
+            <div class="vertical-title">
+             JavaScript
+            </div>
+            <div class="vertical-desc">
+             JavaScript is a programming language used to make web pages interactive and dynamic. It allows developers to add features like animations, form validation, interactive maps, and real-time updates without reloading the page. Running directly in the browser. 
+
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="react-logo.png" alt="">
+            <div class="vertical-title">
+             React.JS
+            </div>
+            <div class="vertical-desc">
+            React.js is a powerful JavaScript library developed by Facebook for building fast and interactive user interfaces, especially for single-page applications.React’s virtual DOM improves performance by updating only the parts of a page that change, rather than reloading the entire page.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="nodejs.png" alt="">
+            <div class="vertical-title">
+             Node.JS
+            </div>
+            <div class="vertical-desc">
+            Node.js is a JavaScript runtime environment that allows developers to run JavaScript code on the server side instead of just in the browser. Built on Google Chrome’s V8 engine, it enables fast and efficient execution of code, making it ideal for building scalable, real-time applications like chat apps, APIs.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="free-mongodb-icon-svg.png" alt="">
+            <div class="vertical-title">
+            MangoDB
+            </div>
+            <div class="vertical-desc">
+            MongoDB is a NoSQL database that stores data in flexible,JSON-like documents instead of traditional tables and rows.This document-based structure allows developers to easily manage & scale large amounts of unstructured or semi-structured data.
+            </div>
+          </div>
+        </div>
+        </section>
+<hr>
+       <secion class="thirdSection">
+
+       </secion>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontend Developer', 'Web Developer',  'Web Designer..'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

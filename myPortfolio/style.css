@@ -1,0 +1,111 @@
+ *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(25, 2, 66);
+        color: white;
+        font-family: "Roboto", sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(44, 18, 92);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    } 
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a :hover{
+         color: rgb(163, 71, 71);
+         font-size: 2rem;
+    }
+    .left{
+        font-size: 2rem;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+    }
+    .firstSection >div{
+        width: 30%;
+    }
+    .leftSection{
+        font-size: 2rem;
+
+    }
+    .rightSection img{
+        width: 100%;
+
+    }
+    .purple{
+      color: rgb(170,107,228);
+    }
+    #element{
+        color:rgb(170,107,228);
+    }
+    .secondSection{
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+    .secondSection h1{
+        font-size: 1.5rem;
+    }
+    .text-gray{
+        color: gray;
+    
+    }
+    .secondSection .box{
+      background-color: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .secondSection .vertical{
+        height:93px ;
+        width: 1px;
+        background-color: white;
+        margin-right: 140px;
+        margin-left: 20px;
+    }
+    .image-top{
+        width: 25px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+    .vertical-title{
+     position: relative;
+     top: 75px;
+     width: 150px;
+     font-size: 14px;
+    }
+    .vertical-desc{
+     position: relative;
+     top: 86px;
+     color: grey;
+     width: 150px;
+     font-size:9px;
+    }
+    .thirdSection box{
+     background-color: white;
+     width: 80vw;
+     height: 2px;
+     margin: 56px 0;
+      display: flex;
+    }
+    
